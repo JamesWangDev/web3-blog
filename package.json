@@ -1,0 +1,36 @@
+{
+  "name": "web3-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^4.9.2",
+    "@types/node": "20.4.3",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "chai": "^4.3.7",
+    "easymde": "^2.18.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.0",
+    "ipfs-http-client": "^60.0.1",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-simplemde-editor": "^5.2.0",
+    "typescript": "5.1.6",
+    "web3modal": "^1.9.12"
+  }
+}
